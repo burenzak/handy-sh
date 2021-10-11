@@ -26,3 +26,8 @@ Playbook execution (AWS)
 ```
 $ ansible-playbook --private-key <key-location> -K <playbook-location> -u ec2-user
 ```
+## SSH
+Easy AWS SSH
+```
+$ ssh -i <key-location> ec2-user@<host>
+```
