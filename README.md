@@ -17,7 +17,12 @@ Checking for running containers
 $ docker container ls
 ```
 
-Push to ECR
+## Ansible
+Single command (AWS)
 ```
-$ .
+$ ansible <hosts> --private-key <key-location> -m command -a <shell-command-itself> -u ec2-user
+```
+Playbook execution (AWS)
+```
+$ ansible-playbook --private-key <key-location> -K <playbook-location> -u ec2-user
 ```
