@@ -31,3 +31,10 @@ Easy AWS SSH
 ```
 $ ssh -i <key-location> ec2-user@<host>
 ```
+
+## Git
+Re-add all (in case gitignore didn't work)
+```
+$ git rm -rf --cached .
+$ git add .
+```
