@@ -38,3 +38,7 @@ Re-add all (in case gitignore didn't work)
 $ git rm -rf --cached .
 $ git add .
 ```
+Proper pull in case you forgot to clone first
+```
+$ git pull origin branchname --allow-unrelated-histories
+```
