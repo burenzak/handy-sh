@@ -14,7 +14,7 @@ $ rm -rf <folder>
 
 Checking for running containers
 ```
-$ docker container ls
+$ docker container ls OR docker ps
 ```
 
 ## Ansible
